@@ -10,7 +10,7 @@ const Home = () => {
     try {
       const { data } = await axios.get(url);
       setTutorials(data);
-      // console.log(dataa);
+      // console.log(data);
     } catch (error) {
       console.log(error);
     }
